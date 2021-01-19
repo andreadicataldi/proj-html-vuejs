@@ -8,6 +8,14 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 .contacts-bar {
   width: 100%;
   height: 50px;
@@ -42,7 +50,64 @@ body {
 }
 
 .contacts-bar a {
-  text-decoration: none;
   color: #c0c3d0;
   margin-left: 30px;
+}
+
+.jumbotron {
+  height: 600px;
+  background-image: url("../img/jumbo.jpg");
+  background-size: 100%;
+  background-position: center;
+  position: relative;
+}
+
+.jumbotron-container {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+.nex {
+  color: #00a6a6;
+}
+
+.gen {
+  color: white;
+}
+
+.links-list {
+  display: flex;
+  align-items: center;
+}
+
+.links-list li {
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-left: 40px;
+}
+
+.main-button {
+  font-family: "Montserrat", sans-serif;
+  height: 46px;
+  background: #058283;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 10px 25px;
+  border-radius: 3px;
 }
