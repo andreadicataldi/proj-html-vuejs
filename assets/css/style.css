@@ -112,6 +112,18 @@ nav {
   border-radius: 3px;
 }
 
+.transparent-button {
+  font-family: "Montserrat", sans-serif;
+  height: 46px;
+  border: 1px solid #058283;
+  background: transparent;
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 10px 25px;
+  border-radius: 3px;
+}
+
 .jumbo-text {
   margin-top: 12%;
   margin-left: 55%;
@@ -131,6 +143,11 @@ nav {
   font-weight: 400;
   color: #c0c3d0;
   margin: 35px 0px;
+}
+
+.jumbo-text .transparent-button {
+  margin-left: 25px;
+}
 
 .business {
   height: 725px;
