@@ -258,8 +258,97 @@ nav {
 }
 
 .network {
+  display: flex;
   height: 1310px;
+}
+
+.company {
+  flex: 1;
   background: #111117;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.company-text,
+.company-percentage {
+  width: 475px;
+  margin-left: 40%;
+}
+
+.company-text h4 {
+  color: #00a6a6;
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.company-text h2 {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 48px;
+  line-height: 1.2;
+  font-weight: 800;
+  margin-top: 40px;
+}
+
+.company-text p {
+  font-size: 16px;
+  color: #c0c3d0;
+  margin-top: 40px;
+}
+
+.company-percentage {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.percentage {
+  display: flex;
+  margin: 40px 0px;
+}
+
+.percentage-dot {
+  border-radius: 50%;
+  border: 10px solid #252c2f;
+  height: 110px;
+  min-height: 110px;
+  width: 110px;
+  min-width: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.percentage-dot p {
+  font-size: 32px;
+  color: #c0c3d0;
+  font-weight: 700;
+}
+
+.percentage-dot span {
+  font-size: 16px;
+}
+
+.percentage-text {
+  margin-left: 20px;
+}
+
+.percentage-text h3 {
+  font-size: 24px;
+  color: #f9f9f9;
+  margin-bottom: 30px;
+}
+
+.percentage-text p {
+  font-size: 16px;
+  color: #c0c3d0;
+}
+
+.photo {
+  flex: 1;
+  background-image: url("../img/about-5.jpg");
+  background-size: cover;
 }
 
 .editorial {
