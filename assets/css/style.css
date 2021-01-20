@@ -451,6 +451,61 @@ nav {
 .newsletter {
   height: 455px;
   background-image: url("../img/bg-1.jpg");
+  background-position: center;
+}
+
+.newsletter-container {
+  width: 55%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+.newsletter-text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.newsletter-text h4 {
+  color: #00a6a6;
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.newsletter-text h2 {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 48px;
+  font-weight: 800;
+  margin: 20px 0px;
+}
+
+.newsletter p {
+  font-size: 24px;
+  color: #c0c3d0;
+}
+
+.newsletter-input {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.newsletter-input input {
+  width: 435px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  color: #252c2f;
+  background-color: rgba(255, 255, 255, 0.267);
+  margin-bottom: 20px;
+}
+
+.newsletter-input button {
+  width: 150px;
 }
 
 .message {
