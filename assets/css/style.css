@@ -259,7 +259,7 @@ nav {
 
 .network {
   display: flex;
-  height: 1310px;
+  height: 1030px;
 }
 
 .company {
@@ -288,13 +288,13 @@ nav {
   font-size: 48px;
   line-height: 1.2;
   font-weight: 800;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .company-text p {
   font-size: 16px;
   color: #c0c3d0;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .company-percentage {
@@ -349,6 +349,20 @@ nav {
   flex: 1;
   background-image: url("../img/about-5.jpg");
   background-size: cover;
+}
+
+.technologies {
+  height: 285px;
+  background: #eef4ed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.technologies img {
+  height: 25px;
+  margin: 0px 55px;
+  filter: sepia(100%);
 }
 
 .editorial {
