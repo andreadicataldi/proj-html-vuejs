@@ -495,6 +495,7 @@ nav {
 }
 
 .newsletter-input input {
+  font-family: "Montserrat", sans-serif;
   width: 435px;
   height: 50px;
   border-radius: 5px;
@@ -511,6 +512,116 @@ nav {
 .message {
   height: 845px;
   background: #eef4ed;
+}
+
+.message-container {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.message h4 {
+  color: #00a6a6;
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.message h2 {
+  color: #21333e;
+  font-family: "Poppins", sans-serif;
+  font-size: 48px;
+  line-height: 1.2;
+  font-weight: 800;
+  margin: 30px 0px 20px 0px;
+}
+
+.message p {
+  font-size: 16px;
+  color: #606d75;
+}
+
+form {
+  margin-top: 50px;
+}
+
+form input {
+  font-family: "Montserrat", sans-serif;
+  border-radius: 5px;
+  border: none;
+  color: #252c2f;
+  background-color: rgba(0, 0, 0, 0.116);
+  height: 50px;
+  width: 350px;
+  margin: 0px 15px 15px 0px;
+}
+
+form select {
+  font-family: "Montserrat", sans-serif;
+  border-radius: 5px;
+  border: none;
+  color: #252c2f;
+  background-color: rgba(0, 0, 0, 0.116);
+  height: 50px;
+  width: 350px;
+}
+
+form textarea {
+  font-family: "Montserrat", sans-serif;
+  border-radius: 5px;
+  border: none;
+  color: #252c2f;
+  background-color: rgba(0, 0, 0, 0.116);
+  height: 150px;
+  width: 720px;
+}
+
+form button {
+  margin-top: 30px;
+}
+
+.message-contacts {
+  align-self: flex-start;
+  margin: 147px 0px 0px 50px;
+}
+
+.contacts-text {
+  width: 350px;
+}
+
+.contacts-text h3 {
+  font-size: 24px;
+  color: #21333e;
+  margin-bottom: 25px;
+}
+
+.contacts-text p {
+  font-size: 16px;
+  color: #606d75;
+  margin-bottom: 20px;
+}
+
+.contacts-icons {
+  width: 350px;
+}
+
+.contacts-icons p {
+  font-size: 19.2px;
+  color: #058283;
+  margin-bottom: 20px;
+}
+
+.contacts-icons i {
+  margin-right: 10px;
+  background-color: #05828326;
+  border-radius: 50%;
+  padding: 15px;
+}
+
+.message-contacts button {
+  color: #058283;
 }
 
 footer {
