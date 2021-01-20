@@ -160,12 +160,14 @@ nav {
   margin: auto;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .business-text {
-  flex: 1;
   display: flex;
   flex-direction: column;
+  width: 350px;
+  height: 400px;
 }
 
 .business-text h3 {
@@ -191,7 +193,7 @@ nav {
 }
 
 .business-text button {
-  width: 40%;
+  width: 50%;
 }
 
 .badge {
@@ -216,7 +218,43 @@ nav {
 }
 
 .business-cards {
-  flex: 2;
+  display: flex;
+  margin-left: 50px;
+}
+
+.business-cards > div:nth-child(2) {
+  margin-left: 30px;
+}
+
+.card {
+  background: white;
+  width: 360px;
+  height: 410px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-radius: 10px;
+}
+
+.card h3 {
+  margin-left: 60px;
+  font-size: 24px;
+  color: #21333e;
+}
+
+.card img {
+  width: 240px;
+  height: 165px;
+  align-self: center;
+  margin-top: 20px;
+}
+
+.card p {
+  width: 240px;
+  align-self: center;
+  font-size: 16px;
+  color: #606d75;
+  margin-bottom: 30px;
 }
 
 .network {
