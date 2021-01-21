@@ -69,11 +69,7 @@
               </div>
               <div class="links">
                 <ul class="links-list">
-                  <li>HOME</li>
-                  <li>SERVICES</li>
-                  <li>SKILLS</li>
-                  <li>PARTNERS</li>
-                  <li>BLOG</li>
+                  <li v-for="link in topLinks">{{link}}</li>
                   <li><button class="main-button">GET IN TOUCH</button></li>
                 </ul>
               </div>
@@ -266,8 +262,34 @@
       <!-- /MAIN -->
       <!-- FOOTER -->
       <footer>
-        <div class="index"></div>
-        <div class="copyright"></div>
+        <div class="index">
+          <div class="index-contacts">
+            <div class="logo">
+              <span class="nex">N E X</span><span class="gen"> G E N</span>
+            </div>
+            <p>A Functional HTML Template for Corporate & Business</p>
+            <p><i class="fas fa-phone-alt"></i>+1 (305) 1234-5678</p>
+            <p><i class="fas fa-envelope"></i>hello@example.com</p>
+            <p><i class="fas fa-map-marker-alt"></i>Main Avenue, 987</p>
+            <button class="transparent-button">GET IN TOUCH</button>
+          </div>
+          <div class="index-col" v-for="section in colSections">
+            <h3>{{section.title}}</h3>
+            <ul>
+              <li v-for="link in section.links">
+                <i class="fas fa-chevron-right"></i>{{link}}
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="copyright">
+          <div class="copyright-container">
+            <p>Enjoy the low price. We are tracking any intention of piracy.</p>
+            <p>
+              &copy; 2020 NEXGEN is Proudly Powered by <span>Codings</span>.
+            </p>
+          </div>
+        </div>
       </footer>
       <!-- /FOOTER -->
     </div>

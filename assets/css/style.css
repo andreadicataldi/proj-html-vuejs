@@ -626,9 +626,87 @@ form button {
 
 footer {
   height: 675px;
+  color: #c0c3d0;
+}
+
+.index {
+  height: 615px;
+  background-image: url("../img/bg-10.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.index-contacts {
+  width: 240px;
+  height: 330px;
+}
+
+.index-contacts .logo {
+  margin-bottom: 40px;
+}
+
+.index-contacts p {
+  margin-bottom: 20px;
+}
+.index-contacts > p:nth-child(2) {
+  margin-bottom: 40px;
+}
+
+.index-contacts i {
+  margin-right: 10px;
+}
+
+.index-contacts button {
+  margin-top: 20px;
+}
+
+.index-col {
+  width: 260px;
+  height: 330px;
+  background: #ffffff09;
+  border-radius: 10px;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.index-col h3 {
+  font-size: 24px;
+  align-self: flex-start;
+  margin: 0px 0px 30px 60px;
+}
+
+.index-col i {
+  margin-right: 10px;
+}
+
+.index-col li {
+  margin-bottom: 10px;
 }
 
 .copyright {
   height: 60px;
   background: #0d0d11;
+}
+
+.copyright-container {
+  height: 100%;
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.copyright-container p {
+  margin-bottom: 5px;
+}
+
+.copyright-container span {
+  color: #058283;
 }
