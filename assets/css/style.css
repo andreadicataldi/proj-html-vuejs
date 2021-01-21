@@ -4,16 +4,25 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
 }
 
 li {
   list-style: none;
+  cursor: pointer;
 }
 
 a {
   text-decoration: none;
+}
+
+button {
+  cursor: pointer;
 }
 
 .contacts-bar {
@@ -51,6 +60,9 @@ a {
 
 .contacts-bar a {
   color: #c0c3d0;
+}
+
+.social a {
   margin-left: 30px;
 }
 
@@ -78,6 +90,7 @@ nav {
 .logo {
   font-weight: 700;
   font-size: 1.3rem;
+  cursor: pointer;
 }
 
 .nex {
@@ -98,6 +111,10 @@ nav {
   font-size: 1rem;
   font-weight: 500;
   margin-left: 40px;
+}
+
+.links-list a {
+  color: white;
 }
 
 .main-button {
@@ -207,6 +224,7 @@ nav {
   white-space: nowrap;
   vertical-align: baseline;
   border-radius: 0.25rem;
+  cursor: pointer;
 }
 
 .business-text .badge {
@@ -234,6 +252,7 @@ nav {
   flex-direction: column;
   justify-content: space-evenly;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .card h3 {
@@ -363,6 +382,7 @@ nav {
   height: 25px;
   margin: 0px 55px;
   filter: sepia(100%);
+  cursor: pointer;
 }
 
 .editorial {
@@ -421,6 +441,7 @@ nav {
   border-radius: 10px;
   display: flex;
   align-items: flex-end;
+  cursor: pointer;
 }
 
 .photo-card h3 {
@@ -484,7 +505,7 @@ nav {
 }
 
 .newsletter p {
-  font-size: 24px;
+  font-size: 16px;
   color: #c0c3d0;
 }
 
@@ -537,6 +558,10 @@ nav {
   line-height: 1.2;
   font-weight: 800;
   margin: 30px 0px 20px 0px;
+}
+
+.message h2 span {
+  color: #058283;
 }
 
 .message p {

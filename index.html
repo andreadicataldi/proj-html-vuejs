@@ -34,16 +34,22 @@
           <div class="contacts-container">
             <div class="contacts-l">
               <span class="hours"
-                ><i class="fas fa-clock"></i>Open Hours: Mon - Sat - 9:00 -
-                18:00</span
+                ><a href="#"
+                  ><i class="fas fa-clock"></i>Open Hours: Mon - Sat - 9:00 -
+                  18:00</a
+                ></span
               >
             </div>
             <div class="contacts-r">
               <span class="phone"
-                ><i class="fas fa-phone-alt"></i>+1 (305) 1234-5678</span
+                ><a href="#"
+                  ><i class="fas fa-phone-alt"></i>+1 (305) 1234-5678</a
+                ></span
               >
               <span class="mail"
-                ><i class="fas fa-envelope"></i>hello@example.com</span
+                ><a href="#"
+                  ><i class="fas fa-envelope"></i>hello@example.com</a
+                ></span
               >
               <span class="social">
                 <a href="https://www.facebook.com/"
@@ -65,11 +71,14 @@
           <div class="jumbotron-container">
             <nav>
               <div class="logo">
-                <span class="nex">N E X</span><span class="gen"> G E N</span>
+                <a href="#"
+                  ><span class="nex">N E X</span
+                  ><span class="gen"> G E N</span></a
+                >
               </div>
               <div class="links">
                 <ul class="links-list">
-                  <li v-for="link in topLinks">{{link}}</li>
+                  <li v-for="link in topLinks"><a href="">{{link}}</a></li>
                   <li><button class="main-button">GET IN TOUCH</button></li>
                 </ul>
               </div>
@@ -223,7 +232,7 @@
           <div class="message-container">
             <div class="message-form">
               <h4>SEND A MESSAGE</h4>
-              <h2>Get in Touch</h2>
+              <h2>Get in <span>Touch</span></h2>
               <p>We will respond to your message as soon as possible.</p>
               <form action="">
                 <input type="text" placeholder="Name" />
