@@ -503,6 +503,7 @@ nav {
   color: #252c2f;
   background-color: rgba(255, 255, 255, 0.267);
   margin-bottom: 20px;
+  padding-left: 20px;
 }
 
 .newsletter-input button {
@@ -556,16 +557,18 @@ form input {
   height: 50px;
   width: 350px;
   margin: 0px 15px 15px 0px;
+  padding: 20px;
 }
 
 form select {
   font-family: "Montserrat", sans-serif;
   border-radius: 5px;
   border: none;
-  color: #252c2f;
+  color: #606d75;
   background-color: rgba(0, 0, 0, 0.116);
   height: 50px;
   width: 350px;
+  padding-left: 15px;
 }
 
 form textarea {
@@ -576,6 +579,8 @@ form textarea {
   background-color: rgba(0, 0, 0, 0.116);
   height: 150px;
   width: 720px;
+  padding: 20px;
+  resize: none;
 }
 
 form button {
