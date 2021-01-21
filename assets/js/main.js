@@ -38,4 +38,9 @@ var app = new Vue({
       },
     ],
   },
+  methods: {
+    scrollToTop() {
+      window.scrollTo(0, 0);
+    },
+  },
 });

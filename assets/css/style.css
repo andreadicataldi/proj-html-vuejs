@@ -740,3 +740,15 @@ footer {
 .copyright-container span {
   color: #058283;
 }
+
+.scroll-top i {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 20px;
+  color: #00a6a6;
+  background-color: #f1f1f177;
+  padding: 15px;
+  border-radius: 50%;
+  cursor: pointer;
+}
